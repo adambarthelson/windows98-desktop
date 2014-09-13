@@ -1,0 +1,165 @@
+<br/>
+
+<!--<div class='resizable window'>-->
+    <!--<div class='header'>-->
+        <!--<img class='icon' src='icons/txt.gif'/>-->
+        <!--Untitled - Notepad-->
+        <!--<div class='buttons'>-->
+            <!--<button>_</button>-->
+            <!--<button>&#x25FD;</button>-->
+            <!--<button>X</button>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class='content'>-->
+        <!--<center>-->
+            <!--<h3>R U OK?</h3>-->
+            <!--<p></p>-->
+            <!--<button>OK</button>-->
+            <!--<button>Cancel</button>-->
+        <!--</center>-->
+    <!--</div>-->
+<!--</div>-->
+<!--<br/><br/>-->
+
+<!--<div class='window'>-->
+    <!--<div class='header'>-->
+        <!--<img class='icon' src='icons/exe.gif'/>-->
+        <!--Fire Virus Control Wizard-->
+    <!--</div>-->
+
+    <!--<div class='content'>-->
+        <!--<center>-->
+            <!--<h3>YOU HAVE BEEN INFECTED!</h3>-->
+            <!--<p>Click to fix your computer NOW</p>-->
+
+            <!--<button>Start Scan</button>-->
+        <!--</center>-->
+    <!--</div>-->
+<!--</div>-->
+<!--<br/><br/>-->
+
+<!--<div class='window'>-->
+    <!--<div class='header'>-->
+        <!--<img class='icon' src='icons/exe.gif'/>-->
+        <!--yo.exe-->
+    <!--</div>-->
+
+    <!--<div class='content'>-->
+        <!--<p>You got a yo from thedude92</p>-->
+        <!--<center>-->
+            <!--<button>Say YO</button>-->
+            <!--<button disabled>Say NO</button>-->
+        <!--</center>-->
+    <!--</div>-->
+<!--</div>-->
+
+<exe file-icon="'documents.gif'" title="'My Documents'"></exe>
+<exe file-icon="'Ie-98.png'" title="'Internet Explorer'"></exe>
+<exe file-icon="'netwicon.gif'" title="'Network Neighborhood'"></exe>
+<exe file-icon="'thebin.gif'" title="'Recycle Bin'"></exe>
+
+
+<br/><br/>
+
+<div id="start-menu-active" style="width: 400px" ng-show="startOpened">
+    <div class="menu">
+        <div class="menu-sidebar">
+            <div class="headline">
+                <strong>Windows</strong> 98
+            </div>
+        </div>
+        <ul class='menu-content'>
+            <li class='item folder'>
+                <img class='icon' src='images/programs.gif'/>
+                Programs
+                <ul class='menu-content'>
+                    <li class="item">
+                        <img class='icon' src='images/exe.gif'/>
+                        Internet Explorer
+                    </li>
+                    <li class="item">
+                        <img class='icon' src='images/exe.gif'/>
+                        Microsoft Word
+                    </li>
+                    <li class="item">
+                        <img class='icon' src='images/exe.gif'/>
+                        Microsoft Excel
+                    </li>
+                    <li class="item">
+                        <img class='icon' src='images/exe.gif'/>
+                        Microsoft Powerpoint
+                    </li>
+                    <li class="item">
+                        <img class='icon' src='images/exe.gif'/>
+                        Microsoft Access
+                    </li>
+                </ul>
+            </li>
+            <li class='item folder'>
+                <img class='icon' src='images/favourites.gif'/>
+                Favorites
+                <ul class='menu-content'>
+                    <li class="item">
+                        <img class='icon' src='images/documents.gif'/>
+                        Channels
+                    </li>
+                    <li class="item">
+                        <img class='icon' src='images/documents.gif'/>
+                        Links
+                    </li>
+                    <li class="item">
+                        <img class='icon' src='images/documents.gif'/>
+                        Software Updates
+                    </li>
+                </ul>
+            </li>
+            <li class='item folder'>
+                <img class='icon' src='images/documents.gif'/>
+                Documents
+                <ul class='menu-content'>
+                    <li class="item">
+                        <img class='icon' src='images/txt.gif'/>
+                        Hot grills.txt
+                    </li>
+                    <li class="item">
+                        <img class='icon' src='images/txt.gif'/>
+                        Passwords.txt
+                    </li>
+                </ul>
+            </li>
+            <li class='item folder'>
+                <img class='icon' src='images/settings.gif'/>
+                Settings
+            </li>
+            <li class='item folder'>
+                <img class='icon' src='images/find.gif'/>
+                Find
+            </li>
+            <li class='item'>
+                <img class='icon' src='images/help.gif'/>
+                Help
+            </li>
+            <li class='item'>
+                <img class='icon' src='images/run.gif'/>
+                Run...
+            </li>
+            <li class='divider'></li>
+            <li class='item'>
+                <img class='icon' src='images/logoff.gif'/>
+                Log Off Win98...
+            </li>
+            <li class='item'>
+                <img class='icon' src='images/shutdown.gif'/>
+                Shut Down...
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="start-menu" class="window" sticky-footer=".wrapper">
+    <button id="start-button" ng-click="toggleStart()">
+        <img src="images/icon_windows_98_nt_2000.gif" alt=""/>
+        <span class="text">Start</span>
+    </button>
+</div>
